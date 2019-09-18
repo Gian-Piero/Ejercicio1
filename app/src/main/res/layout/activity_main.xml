@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+1.
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp">
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/lbltitulo"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtNombre"
+        android:inputType="text"
+        android:layout_marginTop="35sp"/>
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"
+        android:layout_marginTop="90sp"
+        android:layout_marginLeft="290sp"/>
+
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:layout_marginTop="90sp"
+        android:layout_marginLeft="180sp"/>
+</RelativeLayout>
+
+-->
+
+<!--
+2.
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uno"/>
+        <Button
+            android:id="@+id/btnDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dos"/>
+        <Button
+            android:id="@+id/btnTres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tres"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnCuatro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cuatro"/>
+        <Button
+            android:id="@+id/btnCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cinco"/>
+        <Button
+            android:id="@+id/btnSeis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seis"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnSiete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/siete"/>
+        <Button
+            android:id="@+id/btnOcho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ocho"/>
+        <Button
+            android:id="@+id/btnNueve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nueve"/>
+    </TableRow>
+</TableLayout>
+-->
+
+
+<!--
+3.
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnUno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+            <Button
+                android:id="@+id/btnDos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <Button
+                android:id="@+id/btnTres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnCuatro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"/>
+            <Button
+                android:id="@+id/btnCinco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+            <Button
+                android:id="@+id/btnSeis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnSiete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"/>
+            <Button
+                android:id="@+id/btnOcho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"/>
+            <Button
+                android:id="@+id/btnNueve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnCero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="64sp"
+            android:text="+"/>
+        <Button
+            android:id="@+id/btnIgual"
+            android:layout_width="wrap_content"
+            android:layout_height="64sp"
+            android:text="="/>
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="64sp"
+            android:text="C"/>
+    </LinearLayout>
+</LinearLayout>
+-->
+
+<!--
+4.1
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Escribe tu nombre"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+-->
+
+
+<!--
+4.2
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintEnd_toStartOf="@+id/btnDos"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/btnOcho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ocho"
+        app:layout_constraintEnd_toStartOf="@+id/btnNueve"
+        app:layout_constraintTop_toBottomOf="@+id/btnCinco" />
+
+    <Button
+        android:id="@+id/btnCuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cuatro"
+        app:layout_constraintEnd_toStartOf="@+id/btnCinco"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/btnSiete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/siete"
+        app:layout_constraintEnd_toStartOf="@+id/btnOcho"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <Button
+        android:id="@+id/btnNueve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nueve"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeis"
+        tools:layout_editor_absoluteX="209dp" />
+
+    <Button
+        android:id="@+id/btnCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cinco"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeis"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/btnTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/btnSeis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seis"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/btnDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/btnCinco"
+        app:layout_constraintEnd_toStartOf="@+id/btnTres" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+-->
+
+<!--
+4.3
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintEnd_toStartOf="@+id/btnDos"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/btnCuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cuatro"
+        app:layout_constraintEnd_toStartOf="@+id/btnCinco"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/btnSiete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/siete"
+        app:layout_constraintEnd_toStartOf="@+id/btnOcho"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <Button
+        android:id="@+id/btnNueve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nueve"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeis"
+        tools:layout_editor_absoluteX="192dp" />
+
+    <Button
+        android:id="@+id/btnCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cinco"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeis"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/btnTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/btnDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/btnCinco"
+        app:layout_constraintEnd_toStartOf="@+id/btnTres" />
+
+    <Button
+        android:id="@+id/btnSeis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seis"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/btnOcho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ocho"
+        app:layout_constraintEnd_toStartOf="@+id/btnNueve"
+        app:layout_constraintTop_toBottomOf="@+id/btnCinco" />
+
+    <Button
+        android:id="@+id/btnCero"
+        android:layout_width="264dp"
+        android:layout_height="56dp"
+        android:text="0"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="64sp"
+        android:text="+"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/btnIgual"
+        android:layout_width="wrap_content"
+        android:layout_height="64sp"
+        android:text="="
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="86dp"
+        android:layout_height="68dp"
+        android:text="C"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+-->
+
+<!--
+5.1
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/lblTexto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Texto 1"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/lblTexto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Texto 2"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/lblTexto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Texto 3"
+        android:textSize="24sp" />
+
+    <AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boton"
+            android:layout_x="170dp"
+            android:layout_y="50dp">
+    </AbsoluteLayout>
+</LinearLayout>
+
+-->
+
+
+
+<!--
+5.2
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/lblLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="170sp"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="ACCEPT"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"></Button>
+</LinearLayout>
+
+-->
